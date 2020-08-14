@@ -15,6 +15,7 @@
  sh "${mavenHome}/bin/mvn clean package"
  }
  
+  /*
   stage('ExecuteSonarQubeReport')
   {
   sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -41,5 +42,6 @@
    Mithun Technologies,
    9980923226.''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com'
    }
+   %/
 }
  
